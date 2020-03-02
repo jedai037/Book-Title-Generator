@@ -20,14 +20,19 @@ body {
     text-align: center;
     font-size: 22.7403px;
 }
-.header-title:before {
+/* .header-title:before {
+    width: 47.11px;
+    height: 52px;
     content: url('images/logo.png');
     vertical-align: middle;
     margin-right: 5px;
-}
+    max-width: 47.11px;
+    max-height: 52px;
+} */
 .header-logo {
     vertical-align: middle;
-    margin: 50% auto;
+    max-width: 47.11px;
+    max-height: 52px;
 }
 .header-sub {
     margin: 3% auto;
@@ -49,7 +54,7 @@ body {
     border-bottom: 1px solid #f8f8f9;
 }
 .main-block-back {
-    margin: -71% auto;
+    margin: -61% auto;
     width: 705.65px;
     height: 326px;
     background: rgba(255, 255, 255, 0.5);
@@ -111,14 +116,14 @@ li {
     margin: 35% auto 0;
     flex-direction: column;
     background-color: #fff;
-    max-height: 346px;
+    max-height: 256px;
     height: 100%;
     width: 100%;
     z-index: -4;
 }
 .social {
     display: flex;
-    margin: 100px auto 0;
+    margin: 30px auto 0;
     max-width: 140px;
     max-height: 60px;
     width: 100%;
@@ -128,13 +133,15 @@ li {
 .social-image {
     display: flex;
     background: none;
-    padding: 5px;
+    padding: 5px 5px 0;
+    width: 22.35px;
+    height: 22.35px;
 }
 .footer {
     width: 100%;
     display: flex;
     text-align: center;
-    margin: 10px 35%;
+    margin: 0 35% 10px;
     font-size: 12.9221px;
     white-space: nowrap;
 }
